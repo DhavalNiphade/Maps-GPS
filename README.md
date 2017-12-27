@@ -14,9 +14,9 @@ As part of the program, there are various **modes** you may choose to use along 
 
 #### Note
 The Astar algorithm supports two extra modes :
-* longtour - finds the longest driving distance path that doesn't visit the same city twice
-* statetour - finds the shortest path between two cities while visiting exactly one city in every state.
+* _longtour_ - finds the longest driving distance path that doesn't visit the same city twice
+* _statetour_ - finds the shortest path between two cities while visiting exactly one city in every state.
 
 To run the program enter the following on your command line (terminal):
 
-python route.py __<start-city> <end-city> <routing-algorithm>__ __<mode-choice>__
+python route.py __\<start-city> \<end-city> \<routing-algorithm>__ __\<mode-choice>__
